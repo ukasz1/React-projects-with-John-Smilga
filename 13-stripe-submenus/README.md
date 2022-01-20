@@ -1,0 +1,3 @@
+## Stripe submenus
+
+## Application view
