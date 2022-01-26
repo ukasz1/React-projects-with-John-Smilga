@@ -1,0 +1,3 @@
+## Stock photos
+
+## App view
