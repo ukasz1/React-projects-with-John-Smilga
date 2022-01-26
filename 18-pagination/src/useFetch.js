@@ -7,10 +7,11 @@ export const useFetch = () => {
   const [data, setData] = useState([])
 
   const getProducts = async () => {
-    const response = await fetch(url)
-    const data = await response.json()
-    setData(data)
-    setLoading(false)
+    const response = await fetch(url);
+    const data = await response.json();
+    ;
+    setData(paginate(data));
+    setLoading(false);
   }
 
   useEffect(() => {
